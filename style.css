@@ -1,0 +1,246 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "open sans",sans-serif;
+}
+
+.wrapper{
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a{
+    font-size: 50px;
+    font-weight: bold;
+    float: left;
+    font-family: 'Courier New', Courier, monospace;
+    color:#181D31;
+    transition: all .5s ease-in-out 0s;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.logo a:hover{
+    transform: rotate(2deg);
+    color: lightseagreen;
+}
+
+.menu{
+    float: right;
+}
+
+nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #ffff;
+    z-index: 1;
+    border-bottom: 1px solid #181D31;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li{
+    float: left; 
+}
+
+nav ul li a{
+color: black;
+font-weight: bold;
+text-align: center;
+padding: 0px 16px 0px 16px;
+text-decoration: none;
+transition: all .5s ease-in-out 0s;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+    color: lightseagreen;
+    transform: rotate(2deg
+    );
+}
+
+section{
+    margin:auto;
+    display: flex;
+    margin-bottom: 50px;
+    padding: 20px 15px 20px 15px;
+    padding-right: 15px;
+}
+
+.kolom{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px 15px 20px 15px;
+}
+
+.kolom .deskripsi{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "comic san-ms";
+    color: black;
+}
+
+h2{
+    font-family: "comic san-ms";
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: lightslategray;
+    width: 100%;
+    line-height: 50px;
+}
+
+a.tbl-biru{
+    background: #181D31;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all .5s ease-in-out 0s;
+}
+
+a.tbl-biru:hover{
+    transform: rotate(2deg);
+}
+
+a.tbl-pink{
+    background:lightseagreen;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-pink:hover{
+    background: #181D31;
+    text-decoration: none;
+}
+
+p{
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+.tengah{
+    text-align: center;
+    width: 100%;
+}
+
+.tutor-list{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.btn{
+    width: 20%;
+    margin: 0 auto;
+}
+
+.btn img{
+    width: 80%;
+    border-radius: 50%;
+}
+
+.btn p{
+    font-family: "comic sans-ms";
+    font-family: 800;
+    font-size: 25px;
+    text-align: center;
+    color: #181D31;
+}
+
+.partner{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu{
+    width: 20%;
+    margin: 0 auto;
+}
+
+.kartu img{
+    width: 80%;
+    border-radius: 50%;
+}
+
+.form input:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn{
+    width: 240px;
+    height: 40px;
+    background: lightseagreen;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: 0,4s ease;
+}
+
+.btn:hover{
+    background-color: white;
+    color: lightseagreen;
+}
+
+.btn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+form{
+    border-radius: 15px;
+    position: relative;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+tr td label{
+    font-family: "roboto"sans-serif;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+
+
+
+
+
+
+
